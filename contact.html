@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Envoyer un message</title>
+</head>
+<body>
+    <div class="nav-container">
+        <div class="wrapper">
+            <nav>
+                <ul class="nav-items">
+                    <li>
+                        <a class="nav-btn-container" href="#">
+                            <div class="logo-container">
+                                <img src="./images/logo_cuisine.png" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="nav-btn">
+                            <a href="#"> Créer une recette</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-btn">
+                            <a href="#"> Recettes Préférées</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="search-box" >
+                            <button id="search-bar" type="submit" placeholder="Recherchez par ingrédient, nom de plat...">
+                                <img src="./images/ellipse 67.png" alt="">
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="account-icon">
+                            <img src="./images/User_fill.png" alt="">
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="form-container">
+        <div class="form-wrapper">
+            <div class="text">
+                <h1>Envoyer un message</h1>
+                <h4>Pour nous contacter merci de nous écrire à l’aide de ce formulaire</h4>
+            </div>
+            
+            <form action="" class="form-contact">
+                <div class="form-contact-pseudo">
+                    <label for="pseudo">Pseudo:</label>
+                    <input type="text" name="pseudo" id="pseudo" required>
+                </div>
+                <div class="form-contact-email">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-contact-sujet">
+                    <label for="sujet">Sujet: </label>
+                    <input type="text" name="sujet" id="sujet" required>
+                </div>
+                <div class="form-contact-message">
+                    <label for="message">Message: </label>
+                    <input type="text" name="message" id="message" required>
+                </div>
+                <div class="form-contact-pj">
+                    <label for="pj">Pièce(s) jointes </label>
+                    <input type="file" name="pj" id="pj" required>
+                </div>
+                <div class="form-contact-envoyer">
+                    <input type="submit" value="Envoyer">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+    <div class="footer-container">
+        <div class="wrapper">
+            <div class="footer-navigation">
+                <ul>
+                    <li><a href="#">Nous Contacter</a></li>
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">F.A.Q</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Conditions générales</a></li>
+                </ul>
+            </div>
+            <hr color="black">
+            <div class="social-icons">
+                <img src="./images/fb.png" alt="">
+                <img src="./images/insta.png" alt="">
+                <img src="./images/twitter.png" alt="">
+                <img src="./images/telegram.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-container-small">
+        <img src="./images/home.png" alt="">
+        <img src="./images/Add.png" alt="">
+        <img src="./images/favorite.png" alt="">
+        <img src="./images/ellipse 67.png" alt="">
+        <img src="./images/account.png" alt="">
+    </div>
+    
+</body>
+</html>

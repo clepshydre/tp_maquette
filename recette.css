@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.nav-container{
+    height: 200px;
+    background: #FEA82F;
+    border: 1px solid #000000;
+}
+
+.nav-btn{
+    background: #FF8022;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    padding: 25px;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    list-style:none;
+}
+
+li a{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+}
+#search-bar{
+    border: 1px solid #000000;
+    border-radius: 30px;
+    width: 25vw;
+    display: flex;
+}
+#search-bar img{
+    align-items: flex-start;
+}
+a, h1{
+    font-family: 'Petit Formal Script', cursive;    
+}
+
+.text{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* FOOTER*/
+
+.footer-container{
+    height: 200px;
+    background: #FEA82F;
+    border: 1px solid #000000;
+    padding: 25px;
+}
+hr{
+    margin-top: 25px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 25px;
+}
+
+/* body */
+
+.form-container{
+    background: #EC333B;
+    margin: 4vw 8vw;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container div{
+    margin: 15px;
+}
+
+input[type=text], input[type=email]{
+    border-radius: 10px;
+    height: 40px;
+    width: 50vw;
+}
+#message{
+    height: 200px;
+}
+input, label{
+    margin-bottom: 5px;
+    display: block;
+}
+
+.wrapper-img img{
+    margin-right: 2vw;
+}
+
+label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+.form-recette-envoyer{
+    display: flex;
+    justify-content: center;
+}
+
+.form-recette-ingredient, .form-recette-instruction{
+    display: flex;
+    flex-direction: column;
+}
+input[value="+"]{
+    align-self: flex-end;
+    margin-bottom: 5px;
+}
+
+.wrapper-ingredient{
+    display: flex;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+input[type=submit]{
+    font-family: 'Petit Formal Script';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 40px;  
+    color: #000000;
+    border: 1px solid #000000;
+    background-color: #fffcff;
+}
+h1{
+    margin-bottom: 10px;
+}
+
+h1,h4{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer-container-small{
+    display: none;
+}
+
+@media only screen and (max-width: 1024px){
+
+    .footer-container{
+        display: none;
+    }
+
+    .footer-container-small{
+        padding: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        background: #FEA82F;
+        border: #000000 solid 1px;
+    }
+
+    .nav-btn, .search-box, .account-icon{
+        display: none;
+    }
+
+    .form-container{
+        margin: 0px;
+    }
+
+    .nav-btn-container{
+        justify-self: center;
+    }
+}

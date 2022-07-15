@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="recette.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Ajouter une recette</title>
+</head>
+<body>
+    <div class="nav-container">
+        <div class="wraper">
+            <nav>
+                <ul class="nav-items">
+                    <li>
+                        <a class="nav-btn-container" href="#">
+                            <div class="logo-container">
+                                <img src="./images/logo_cuisine.png" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="nav-btn">
+                            <a href="#"> Créer une recette</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-btn">
+                            <a href="#"> Recettes Préférées</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="search-box" >
+                            <button id="search-bar" type="submit" placeholder="Recherchez par ingrédient, nom de plat...">
+                                <img src="./images/ellipse 67.png" alt="">
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="account-icon">
+                            <img src="./images/User_fill.png" alt="">
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="form-container">
+        <div class="form-wrapper">
+            <div class="text">
+                <h1>Ajouter une recette</h1>
+                <h4>Merci de renseigner tous les éléments de votre recette</h4>
+            </div>
+            
+            <form action="" class="form-recette">
+                <div class="form-recette-pseudo">
+                    <label for="titre">Titre de la recette</label>
+                    <input type="text" name="titre" id="titre" required>
+                </div>
+                <div class="form-recette-email">
+                    <label for="plat">Type de plat</label>
+                    <input type="text" name="plat" id="plat" required>
+                </div>
+                <div class="form-recette-portion">
+                    <label for="portion">Portions </label>
+                    <input type="text" name="portion" id="portion" required>
+                </div>
+                <div class="form-recette-preparation">
+                    <label for="preparation">Temps de préparation </label>
+                    <input type="text" name="preparation" id="preparation" required>
+                </div>
+                <div class="form-recette-cuisson">
+                    <label for="cuisson">Temps de cuisson </label>
+                    <input type="text" name="cuisson" id="cuisson" required>
+                </div>
+                <div class="form-recette-preparation">
+                    <label for="repos">Temps de repos </label>
+                    <input type="text" name="repos" id="repos" required>
+                </div>
+                <div class="form-recette-difficulte">
+                    <label for="difficulte">Difficulté </label>
+                    <div class="wrapper-img">
+                        <img src="images/Ellipse 72.png" alt="">
+                        <img src="images/Ellipse 72.png" alt="">
+                        <img src="images/Ellipse 72.png" alt="">
+                        <img src="images/Ellipse 72.png" alt="">
+                        <img src="images/Ellipse 72.png" alt="">
+                    </div>
+                </div>
+                <div class="form-recette-cout">
+                    <label for="cout">Coût </label>
+                    <div class="wrapper-img">
+                        <img src="./images/Ellipse 79.png" alt="">
+                        <img src="./images/Ellipse 79.png" alt="">
+                        <img src="./images/Ellipse 79.png" alt="">
+                    </div>
+                </div>
+                <div class="form-recette-ingredient">
+                    <div class="wrapper-ingredient">
+                        <label for="ingredient">Ingrédients </label>
+                        <input type="submit" value="+">
+                    </div>
+                    <input type="text" name="ingredient" id="ingredient" required>
+                </div>
+                <div class="form-recette-instruction">
+                    <div class="wrapper-ingredient">
+                        <label for="instruction">Instructions</label>
+                        <input type="submit" value="+">
+                    </div>
+                    <input type="text" name="instruction" id="instruction" required>
+                </div>
+                <div class="form-recette-envoyer">
+                    <input type="submit" value="Envoyer">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+    <div class="footer-container">
+        <div class="wrapper">
+            <div class="footer-navigation">
+                <ul>
+                    <li><a href="#">Nous Contacter</a></li>
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">F.A.Q</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Conditions générales</a></li>
+                </ul>
+            </div>
+            <hr color="black">
+            <div class="social-icons">
+                <img src="./images/fb.png" alt="">
+                <img src="./images/insta.png" alt="">
+                <img src="./images/twitter.png" alt="">
+                <img src="./images/telegram.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-container-small">
+        <img src="./images/home.png" alt="">
+        <img src="./images/Add.png" alt="">
+        <img src="./images/favorite.png" alt="">
+        <img src="./images/ellipse 67.png" alt="">
+        <img src="./images/account.png" alt="">
+    </div>
+    
+</body>
+</html>
